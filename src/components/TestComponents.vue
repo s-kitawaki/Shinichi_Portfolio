@@ -1,8 +1,7 @@
 <template>
   <v-container>
     <div>
-      <h2>Props.vue</h2>
-      <p>子コンポーネントに渡された値:({{ number }})</p>
+      <p>TestComponentsに渡された値:({{ number }})</p>
     </div>
   </v-container>
 </template>
