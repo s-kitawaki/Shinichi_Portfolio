@@ -7,13 +7,13 @@
       <Works/>
       <Contact/>
       <Footer/>
-      <TestComponents :number="number"/>
+      <!-- <TestComponents :number="number"/> -->
     </v-main>
   </v-app>
 </template>
 
 <script>
-import TestComponents from './components/TestComponents.vue'
+// import TestComponents from './components/TestComponents.vue'
 import Header from './components/Header.vue'
 import Profile from './components/Profile.vue'
 import Skill from './components/Skill.vue'
@@ -25,7 +25,7 @@ export default {
   name: 'App',
 
   components: {
-    TestComponents,
+    // TestComponents,
     Header,
     Profile,
     Skill,
@@ -45,6 +45,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+.v-application__wrap {
+  min-height: auto; /* min-heightを無効にするためautoに設定 */
+}
 </style>

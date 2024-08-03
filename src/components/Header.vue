@@ -4,7 +4,7 @@
       <!-- マージンをリセットする場合以下のクラスに修正 -->
       <!-- <v-row no-gutters> -->
       <!-- <v-row> -->
-      <v-row align-content="center" style="height: 25vh">
+      <v-row  align-content="center" style="height: 25vh">
         <v-col align="center">
           <div class="logo mt-5">
             <p class="header-tittle white--text">Shinichi Kitawaki's portfolio</p>
@@ -36,7 +36,7 @@ export default {
       items: [
         { href: '#Profile', icon: 'mdi-account', text: 'PROFILE' },
         { href: '#skill', icon: 'mdi-lightbulb', text: 'SKILL' },
-        { href: '#works', icon: 'mdi-clipboard-check', text: 'WORKS' },
+        { href: '#works', icon: 'mdi-format-list-checks', text: 'WORKS' },
         { href: '#contact', icon: 'mdi-email', text: 'CONTACT' },
       ],
     };
@@ -44,13 +44,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .header-style {
   /* background-color: rgb(180, 180, 255); */
-  background-image: url('../assets/Header.jpg'); /* ここに画像のパスを指定 */
-  background-size: cover; /* 画像がコンテナ全体をカバーするようにする */
-  background-position: center; /* 画像を中央に配置 */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
+  background-image: url('../assets/Header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header-tittle{
@@ -82,6 +82,6 @@ export default {
 
 .icon-style {
   color: #444;
-  font-size: 25px; /* 必要に応じてサイズを調整してください */
+  font-size: 25px;
 }
 </style>

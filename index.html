@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,6 +13,425 @@
     <script type="module" src="/src/main.js"></script>
 </body>
 
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーShinichi Kitawaki ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Shinichi Kitawakiのポートフォリオサイトです。'>
+  <meta property="og:image" content="public/img/ogp.png">
+  <meta name="description" content="Shinichi Kitawakiのポートフォリオサイトです" />
+  <title>Shinichi ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="public/img/icon_106220_32.png" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <p class="logo-title">Shinichi Kitawaki's portfolio</p>
+          <p class="logo-desc">System Engineer</p>
+        </div>
+        <div class="header-border"></div>
+        <nav id="gnav">
+          <li>
+            <a href="#Profile">
+              <i class="fas fa-user fa-lg"></i>
+              <span class="header-li-css">PROFILE</span>
+            </a>
+          </li>
+          <li>
+            <a href="#skill">
+              <i class="fas fa-lightbulb fa-lg"></i>
+              <span class="header-li-css">SKILL</span>
+            </a>
+          </li>
+          <li>
+            <a href="#works">
+              <i class="fas fa-tasks fa-lg"></i>
+              <span class="header-li-css">WORKS</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <i class="fas fa-envelope fa-lg"></i>
+              <span class="header-li-css">CONTACT</span>
+            </a>
+          </li>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+      <!-- Profile -->
+      <section class="section" id="Profile">
+        <div class="inner">
+          <div class="section-title-block">
+            <p class="section-title"><i class="fas fa-user"></i><span class="section-title-css">PROFILE</span></p>
+          </div>
+          <div class="common-border"></div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image profile">
+              <img src="public/img/Profile/IMG_4325.JPG" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                　はじめまして。平成11年生まれの24歳エンジニアの真一と申します。社会人歴3年目です。現在は奈良に住んでいます。<br>
+                　文系大学（経済学部）出身からIT企業に入社し客先常駐・受託開発を経験してきました。社内では扱っていない言語など独自で勉強したことを共有したり、プロジェクトに参画しているメンバーのサポートを行うなどしたことで「新人賞」をもらいました。
+                現状に満足することなく違う言語や違う環境で仕事をすることでさらなるレベルアップをしたいと思い転職を決意。<br>
+                　最近のやり切った経験は1000行のSQLを書いて想定している挙動が確認できたことです。（可読性や、取得できるデータに汎用性を持たせると長くなってしまいました・・・。）<br>
+                　趣味はテニスをしており、週1回スクールに通っています。また音楽を聴くことが好きなので、今の流行のアーティストを常に探しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Profile -->
+    
+      <!-- skill -->
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-block">
+            <p class="section-title"><i class="fas fa-lightbulb fa-lg"></i><span class="section-title-css">SKILL</span></p>
+            <p class="section-desc"></p>
+          </div>
+          <div class="common-border"></div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i><span class="section-title-css">デザイン・コーディング</span></h3>
+                <p>基本的な事は一通りできます。CSSフレームワークはbootstrap,アイコンはFontAwesomeを使用しました。</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">HTML5(Jsp含む)</th>
+                      <td>1.5年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">CSS3</th>
+                      <td>1年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i><span class="section-title-css">フロントエンド</span></h3>
+                <p>jQueryを主に使用しています。</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">javascrpt(Vue含む)</th>
+                      <td>1年</td>
+                      <td><span class="rating"><p class="rate rate3"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">jQuery</th>
+                      <td>1.5年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i><span class="section-title-css">バックエンド</span></h3>
+                <p>入社当時からJava(Spring Boot)を使用しています。</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Java</th>
+                      <td>2.5年</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">php</th>
+                      <td>0.5年</td>
+                      <td><span class="rating"><p class="rate rate2"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-database"></i><span class="section-title-css">DB</span></h3>
+                <p>入社当時からPostgresを使用しています。</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Postgres</th>
+                      <td>2.5年</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-server"></i><span class="section-title-css">インフラ・サーバー</span></h3>
+                <p>awsでは主にEC2、RDS、S3を使用しています。(自作でハンズオンの経験あり)</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Docker</th>
+                      <td>2年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">aws(EC2、RDS等)</th>
+                      <td>1年</td>
+                      <td><span class="rating"><p class="rate rate3"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-toolbox"></i><span class="section-title-css">その他</span></h3>
+                <p>開発等で使用したツールやFWです。</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Spring Boot</th>
+                      <td>2.5年</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">symfony</th>
+                      <td>0.5年</td>
+                      <td><span class="rating"><p class="rate rate3"></p></span></td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">git</th>
+                      <td>2.5年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">SVN</th>
+                      <td>2年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-list-alt"></i><span class="section-title-css">保有資格</span></h3>
+                <p>社会人になってから取得したものです。</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">資格</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">ITパスポート</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">基本情報技術者</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- works -->
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-tasks fa-lg"></i><span class="section-title-css">WORKS</span></h2>
+            <div class="section-desc"></div>
+            <div class="common-border"></div>
+          </div>
+          <!-- 自作Works -->
+          <div class="works-title">
+            <h2>自作Works</h2>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+                  <img class="card-image" src="public/img/Works/portfolio_cap.jpg" alt="" />
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">ポートフォリオ</p>
+                  <p class="card-caption-info">自分自身のポートフォリオです。</p>
+                  <p class="card-caption-info">HTML/CSS/bootstrap4→絶賛Vueに置き換え中</p>
+                  <p class="card-caption-url"><a class="url-link" href="https://shinichi-portfolio.vercel.app/" target="_blank">サイトに移動</a></p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img class="card-image" src="public/img/Works/MemberHub_cap.jpg" alt="" />
+              <figcaption class="card-caption">
+                <p class="card-caption-title">会員管理サイト</p>
+                <p class="card-caption-info">案件で携わったものを参考にして作成したサイトです。</p>
+                <p class="card-caption-info">※完成後、サーバーにビルド予定</p>
+                <p class="card-caption-info">Jsp/CSS/JavaScript/Java(Spring Boot)/Postgres</p>
+              </figcaption>
+            </figure>
+            <!-- 追加になったら以下を修正 -->
+            <figure class="card card-blank">
+              <figcaption class="card-caption card-blank">
+                <p class="card-caption-title"></p>
+                <p class="card-caption-info"></p>
+                <p class="card-caption-info"></p>
+                <p class="card-caption-url"></p>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- 業務Works -->
+          <div class="works-title">
+            <h2>業務Works</h2>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+                  <img class="card-image" src="public/img/Works/notLook.jpg" alt="" />
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">某スーパーポイントシステム</p>
+                  <p class="card-caption-info">基本設計/詳細設計/製造/単体テスト/結合テスト</p>
+                  <p class="card-caption-info">Java(Spring Boot)/Postgres</p>
+                </figcaption>
+            </figure>
+            
+            <figure class="card">
+                <img class="card-image" src="public/img/Works/notLook.jpg" alt="" />
+              <figcaption class="card-caption">
+                <p class="card-caption-title">某大学入試ステム</p>
+                <p class="card-caption-info">基本設計/詳細設計/製造/単体テスト/結合テスト/デプロイ</p>
+                <p class="card-caption-info">Jsp/CSS/JavaScript/Java(Spring Boot)/Postgres</p>
+                <p class="card-caption-info">EC2/RDS/S3</p>
+              </figcaption>
+            </figure>
+            
+            <figure class="card">
+                <img class="card-image" src="public/img/Works/notLook.jpg" alt="" />
+              <figcaption class="card-caption">
+                <p class="card-caption-title">自社ECサイトのプラグイン開発</p>
+                <p class="card-caption-info">プラグインの開発</p>
+                <p class="card-caption-info">PHP(symphony)</p>
+                <p class="card-caption-url"><a class="url-link" href="https://ec.tn-japan.co.jp/" target="_blank">対象サイト</a></p>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- contact -->
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-envelope fa-lg"></i><span class="section-title-css">CONTACT</span></h2>
+            <div class="common-border"></div>
+            <p class="lead">
+              お問い合わせは、<br class="sp-only">メールにてお願いいたします。
+            </p>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-list" style="text-align: center;">
+              <span class="contact-item">b1a2b1o4@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">↑page-top↑</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;s-Kitawaki</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <!-- jquery JS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <script type='text/javascript' src="script.js"></script>
+</body>
 </html>
 
 
